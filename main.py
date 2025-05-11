@@ -88,7 +88,7 @@ class Ui_MainWindow(object):
         self.pushButton = QPushButton(self.search_frame)
         self.pushButton.setObjectName(u"pushButton")
         icon = QIcon()
-        icon.addFile(r'D:\Electrical Engineering\CP Project\Youtube\Final\search.png')
+        icon.addFile(r'search.png')
         self.pushButton.setIcon(icon)
         self.pushButton.setIconSize(QSize(30, 30))
         self.pushButton.clicked.connect(self.search_clicked)
@@ -159,7 +159,7 @@ class Ui_MainWindow(object):
     def search_clicked(self):
         search_text = self.lineEdit.text()
         sia = SentimentIntensityAnalyzer()
-        api_key = 'AIzaSyDb9FptOlOvGy5vzFhGYCzc-oq78OWy3XQ'
+        api_key = '' #Mention Your own Google API Key
         youtube = build('youtube', 'v3', developerKey=api_key)
         video_details = {}
         request = youtube.search().list(                              
@@ -187,10 +187,10 @@ class Ui_MainWindow(object):
                 sentiment_type += '\n' + str(res) + '%'
             temp = [(i+1),response['items'][i]['id']['videoId'],response['items'][i]['snippet']['title'],response['items'][i]['snippet']['description'],response['items'][i]['snippet']['thumbnails']['high']['url'], sentiment_type]
             data.append(temp)
-        with open(r'D:\Electrical Engineering\CP Project\Youtube\data1.csv', 'w', newline='', encoding = 'utf-8') as csvfile:
+        with open(r'data1.csv', 'w', newline='', encoding = 'utf-8') as csvfile:
             writer = csv.writer(csvfile)
             writer.writerows(data)
-        with open(r'D:\Electrical Engineering\CP Project\Youtube\data1.csv', 'r',encoding='utf-8' ) as csv_f:
+        with open(r'data1.csv', 'r',encoding='utf-8' ) as csv_f:
             reader = csv.reader(csv_f)
             csv_list = list(reader)
             self.pushbutton_det = {}
