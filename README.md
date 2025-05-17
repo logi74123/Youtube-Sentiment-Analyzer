@@ -29,5 +29,5 @@ Clicking on the video leads to a redirection to the browser that opens the **lin
 
 
 
-![App Screenshot](https://i.postimg.cc/ZqcpphDF/Screenshot-2025-05-17-114417.png)
+![App Screenshot](https://i.postimg.cc/kgrTyK7J/Screenshot-2025-05-17-122618.png)
 
