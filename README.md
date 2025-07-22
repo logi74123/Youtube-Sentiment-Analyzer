@@ -27,8 +27,6 @@ Clicking on the video leads to a redirection to the browser that opens the **lin
 ![App Screenshot](https://i.postimg.cc/59Hpd6Rh/Screenshot-2025-05-17-114904.png)
 ![App Screenshot](https://i.postimg.cc/wTzp18Lj/Screenshot-2025-05-17-121417.png)
 
-![App Screenshot](https://freeimage.host/i/FNsEorB)
-
 
 ![App Screenshot](https://i.postimg.cc/kgrTyK7J/Screenshot-2025-05-17-122618.png)
 
