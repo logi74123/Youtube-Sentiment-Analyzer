@@ -38,7 +38,7 @@ git clone https://github.com/logi74123/Youtube-Sentiment-Analyzer.git
 
 
 
-## 💻How does is look?
+## 💻How does it look?
 
 ![App Screenshot](https://i.postimg.cc/4yVgxmtV/2be359d1-ad92-4884-8893-b8c2dbf4a0a7-modified.png)
 ![App Screenshot](https://i.postimg.cc/JzbLLD86/eeca6f33-c5c5-404c-9f4c-6c6cc7d09aaa-modified.png)
