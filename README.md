@@ -24,8 +24,7 @@ An automated tool to scrape, process, and analyze the sentiment of YouTube Descr
 
 ### 2. Clone the Repository
 ```bash
-git clone [https://github.com/logi74123/Youtube-Sentiment-Analyzer.git](https://github.com/logi74123/Youtube-Sentiment-Analyzer.git)
-cd Youtube-Sentiment-Analyzer
+git clone https://github.com/logi74123/Youtube-Sentiment-Analyzer.git
 ```
 ## 🔑 API Reference
 
